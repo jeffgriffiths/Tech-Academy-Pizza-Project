@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+}
+.pizza-bg {
+    /* The image used */
+    background-image: url(pizza.jpg);
+
+    /* Half height */
+    height: 50%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.transbox {
+	background-color: #000;
+	width:40%;
+	height: 100%;
+	margin: auto;
+	padding: 15px;
+	opacity: .7;
+	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pizza-text {
+	color: white;
+	text-align: center;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+h1 {
+	font-size: 4.5vw;
+	opacity: 1;
+}
+
+h3 {
+	font-size: 3vw;
+}
+
+.col-md-4 {
+	display: flex;
+}
+
+.m-1 {
+	width: 100%
+}
+
+.heading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#icon {
+	height: 30px;
+	width: 30px;
+}
